@@ -35,7 +35,7 @@ export class ContaBancaria {
 }
 
 // Exemplo de uso
-const minhaConta = new ContaBancaria("Maria", 1000);
+const minhaConta = new ContaBancaria("Jaciane", 0);
 
 console.log(minhaConta.consultarSaldo());
 console.log(minhaConta.depositar(500));
